@@ -7,7 +7,7 @@ async function connectDB() {
   let database = client.db("Task1");
   let collection = await database.createCollection("users");
   return collection;
-}
+} 
 
 const app = express();
 const PORT = 9000;
